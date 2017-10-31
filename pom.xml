@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.szu</groupId>
+    <artifactId>VRPOptimal</artifactId>
+    <version>1.0.0</version>
+    <modules>
+        <module>embededlabdb</module>
+        <module>embededlabdbapi</module>
+        <module>embededlabservice</module>
+        <module>embededlabserviceapi</module>
+        <module>embededlabcontrolerapi</module>
+        <module>embededlabcontroler</module>
+    </modules>
+    <packaging>pom</packaging>
+    <!--<dependencies>-->
+        <!--<dependency>-->
+            <!--<groupId>com.alibaba</groupId>-->
+            <!--<artifactId>dubbo</artifactId>-->
+            <!--<version>${dubbo_version}</version>-->
+            <!--<exclusions>-->
+                <!--<exclusion>-->
+                    <!--<groupId>org.springframework</groupId>-->
+                    <!--<artifactId>spring-beans</artifactId>-->
+                <!--</exclusion>-->
+                <!--<exclusion>-->
+                    <!--<groupId>org.springframework</groupId>-->
+                    <!--<artifactId>spring-web</artifactId>-->
+                <!--</exclusion>-->
+            <!--</exclusions>-->
+        <!--</dependency>-->
+    <!--</dependencies>-->
+    <properties>
+        <!-- Common libs -->
+        <zookeeper_version>3.4.9</zookeeper_version>
+        <zkclient_version>0.9</zkclient_version>
+        <dubbo_version>2.5.6</dubbo_version>
+        <spring_version>5.0.1.RELEASE</spring_version>
+        <hibernate_core_version>5.2.10.Final</hibernate_core_version>
+        <hibernate_annotation_version>3.5.6-Final</hibernate_annotation_version>
+        <strut2_version>2.5.13</strut2_version>
+        <servlet_version>3.0.1</servlet_version>
+        <mysql_driver_version>6.0.6</mysql_driver_version>
+        <druid_version>1.1.4</druid_version>
+        <spring-boot_version>1.5.8.RELEASE</spring-boot_version>
+    </properties>
+
+</project>
